@@ -10,9 +10,10 @@
 }
 
 body {
-    background-image: url(/resources/images/bg1.webp);
+    background-image: url(/resources/images/pexels-johannes-plenio-1103970.jpg);
     background-position: center;
-    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -21,7 +22,6 @@ nav {
     justify-content: space-between;
     padding: 5px 20px;
     height: 12vh;
-    background-color: rgb(17, 180, 245);
     box-shadow: 0 0 5px rgb(0, 0, 0.03);
 }
 
@@ -44,15 +44,88 @@ ul {
 
 li {
     list-style: none;
+    
 }
 
 a {
     text-decoration: none;
     font-weight: 550;
+    color: rgb(104, 103, 103);
 }
 
 a:hover {
     text-decoration: underline;
     transition: 1s;
 }
+.rr {
+    width: 500px;
+    box-shadow: 0, 0, 2, 5px;
+}   
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 20px;
+}
+
+.description {
+    max-width: 370px;
+    font-size: 22px;
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(104, 103, 103);
+    text-shadow: silver 0.5px 0.5px 0.5px;
+    text-emphasis-color:inherit;
+    text-decoration:salmon;
+
+}
+
+.gal_button {
+    padding: 15px 60px;
+    background-color: rgb(104, 103, 103);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 25px;
     
+}
+
+.s_bt {
+    background-color: rgb(104, 103, 103);
+    color: whitesmoke;
+    padding: 4px 13px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button:hover {
+    background-color: rgb(53, 52, 52);
+    transition: 1.5s;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    margin-top:30px;
+}
